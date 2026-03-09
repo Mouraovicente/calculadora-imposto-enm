@@ -84,7 +84,7 @@ export default function CalculadoraImposto() {
         style={{ backgroundColor: 'var(--box-bg)', boxShadow: '0 8px 30px rgba(0,0,0,0.08)' }}
       >
         <div className="flex justify-center mb-6">
-          <img src={logoEnm} alt="ENM Auditoria" className="h-16 object-contain" />
+          <img src={logoEnm} alt="ENM Auditoria" style={{ height: 60, objectFit: 'contain' }} />
         </div>
         <h2 className="text-center mt-0 mb-2 text-2xl font-extrabold" style={{ color: 'var(--primary-color)' }}>
           Simulador Lucro Presumido 2026
